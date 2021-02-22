@@ -1,0 +1,15 @@
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/bin/Debug/net5.0/A4MovieLibrary.deps.json
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/bin/Debug/net5.0/A4MovieLibrary.runtimeconfig.json
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/bin/Debug/net5.0/A4MovieLibrary.runtimeconfig.dev.json
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/bin/Debug/net5.0/A4MovieLibrary.dll
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/bin/Debug/net5.0/ref/A4MovieLibrary.dll
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/bin/Debug/net5.0/A4MovieLibrary.pdb
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.csprojAssemblyReference.cache
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.AssemblyInfoInputs.cache
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.AssemblyInfo.cs
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.csproj.CoreCompileInputs.cache
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.dll
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/ref/A4MovieLibrary.dll
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.pdb
+/Users/luisdiego/Documents/WCTC/SpringTerm1/NetDatabase/A4MovieLibrary/obj/Debug/net5.0/A4MovieLibrary.genruntimeconfig.cache
