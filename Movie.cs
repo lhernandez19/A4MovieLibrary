@@ -7,31 +7,30 @@ using System.Linq;
 
 namespace A4MovieLibrary
 {
-    public class Movie{
-        public int MovieID { get; set;}
-        public string Title { get; set;}
+    public class Movie : Media{
         public string Genres { get; set;}
         private static string File = "movies.csv";
         
         // Read Movies
-        public void ReadMovies()
+        public override void Read()
         {
             Console.WriteLine("How many movie do you want to be displayed? ");
             int numberOfMovies = Int32.Parse(Console.ReadLine());
             
-            StreamReader reader = new StreamReader("movies.csv");
+            StreamReader reader = new StreamReader(File);
 
             for(int i = 0; i < numberOfMovies + 1 ; i++)
             {
                 string line = reader.ReadLine();
                 Console.WriteLine(line);    
             }
+            reader.Close();
         }
         
         // Add Movie
-        public void AddMovie()
+        public override void Write()
         {
-            MovieID = getLastID() + 1;
+            ItemID = getLastID() + 1;
             StreamWriter sw = new StreamWriter(File, true);
 
             Console.WriteLine("Enter a new Title: ");
@@ -51,12 +50,12 @@ namespace A4MovieLibrary
             } while (option == "Y");
             
             string newGenres =  string.Join("|", genres); 
-            sw.WriteLine("{0},{1},{2}", MovieID, movieTitle, newGenres);
+            sw.WriteLine("{0},{1},{2}", ItemID, movieTitle, newGenres);
             sw.Close();
         }
 
         // Auto Increment ID
-        private int getLastID()
+        public override int getLastID()
         {
             int lastID = 0;
             try
